@@ -5,7 +5,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
-  arr.each do 
-    puts "hi"
+  for name in arr do
+    puts "Hello, my name is #{name}"
   end
+  return arr
 end
