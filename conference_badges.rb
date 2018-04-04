@@ -5,8 +5,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
+  badges = []
   arr.each do |name| 
-    
+    badges.join("Hello, my name is #{name}")
   end
   return arr
 end
