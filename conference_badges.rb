@@ -6,7 +6,6 @@ end
 
 def batch_badge_creator(arr)
   for name in arr do
-    puts "Hello, my name is #{name}."
+    return "Hello, my name is #{name}."
   end
-  return arr
 end
